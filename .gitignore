@@ -3,3 +3,5 @@ kaholey-site.zip
 node_modules/
 .env
 .netlify/
+classement/contact-sheets/
+classement/cards.html
