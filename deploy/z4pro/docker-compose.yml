@@ -1,0 +1,9 @@
+services:
+  kaholey-site:
+    build:
+      context: ../..
+      dockerfile: deploy/z4pro/Dockerfile
+    container_name: kaholey-site
+    ports:
+      - "8080:80"
+    restart: unless-stopped

@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121211">
+  <title>Portfolio — Kaholey | Paysages, portraits, fleurs &amp; drone</title>
+  <meta name="description" content="Une sélection de paysages, portraits, fleurs et vues drone photographiés à Pékin, en Chine et au Bénin.">
+  <meta property="og:title" content="Portfolio — Kaholey">
+  <meta property="og:description" content="Paysages, portraits, fleurs, drone et lumières rares.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kaholey.netlify.app/portfolio.html">
+  <meta property="og:image" content="assets/images/kaholey-hero.webp">
+  <link rel="canonical" href="https://kaholey.netlify.app/portfolio.html">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Kaholey, retour à l'accueil">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span class="brand-text">
+          <strong>Kaholey</strong>
+          <small>Photographe paysage</small>
+        </span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="portfolio.html" class="is-active" aria-current="page">Portfolio</a>
+        <a href="services.html">Prestations</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-light btn-small header-cta" href="contact.html">Réserver</a>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+          <svg class="icon icon-menu" aria-hidden="true"><use href="assets/icons.svg#icon-menu"></use></svg>
+          <svg class="icon icon-close" aria-hidden="true"><use href="assets/icons.svg#icon-close"></use></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="page-hero-media">
+        <img src="assets/images/kaholey-02.webp" alt="Skyline de Pékin sous un ciel nuageux" width="1400" height="787" fetchpriority="high">
+      </div>
+      <div class="page-hero-scrim" aria-hidden="true"></div>
+      <div class="page-hero-content">
+        <p class="eyebrow eyebrow-light">Portfolio</p>
+        <h1 id="page-title">Séries choisies</h1>
+        <p>Paysages, portraits, fleurs et vues drone : une sélection de séries réalisées à Pékin, en Chine et au Bénin.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="container" data-reveal>
+        <h2 id="gallery-title" class="sr-only">Galerie complète</h2>
+        <div class="filter-bar" role="group" aria-label="Filtrer le portfolio">
+          <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">Tous</button>
+          <button class="filter-btn" type="button" data-filter="villes" aria-pressed="false">Villes</button>
+          <button class="filter-btn" type="button" data-filter="rivieres" aria-pressed="false">Rivières</button>
+          <button class="filter-btn" type="button" data-filter="lumieres" aria-pressed="false">Lumières</button>
+          <button class="filter-btn" type="button" data-filter="benin" aria-pressed="false">Bénin</button>
+          <button class="filter-btn" type="button" data-filter="portrait" aria-pressed="false">Portrait</button>
+          <button class="filter-btn" type="button" data-filter="fleur" aria-pressed="false">Fleurs</button>
+          <button class="filter-btn" type="button" data-filter="drone" aria-pressed="false">Drone</button>
+        </div>
+        <div class="works-grid" id="portfolio-grid">
+          <button class="work-card" type="button" data-category="rivieres" data-title="Crépuscule sur la rivière" data-context="Rivière — Pékin" data-image="assets/images/kaholey-01.webp" aria-haspopup="dialog" aria-label="Ouvrir Crépuscule sur la rivière">
+            <img src="assets/images/kaholey-01.webp" alt="Rivière de Pékin au coucher du soleil" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Crépuscule sur la rivière</strong>
+                <small>Rivière — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="villes" data-title="Lignes de la ville" data-context="Ville — Pékin" data-image="assets/images/kaholey-02.webp" aria-haspopup="dialog" aria-label="Ouvrir Lignes de la ville">
+            <img src="assets/images/kaholey-02.webp" alt="Skyline de Pékin sous un ciel nuageux" width="1400" height="787" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Lignes de la ville</strong>
+                <small>Ville — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="villes" data-title="Nuages sur la ville" data-context="Ville — Pékin" data-image="assets/images/kaholey-03.webp" aria-haspopup="dialog" aria-label="Ouvrir Nuages sur la ville">
+            <img src="assets/images/kaholey-03.webp" alt="Gratte-ciel et ciel nuageux à Pékin" width="1400" height="788" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Nuages sur la ville</strong>
+                <small>Ville — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="rivieres" data-title="Pont au couchant" data-context="Rivière — Pékin" data-image="assets/images/kaholey-04.webp" aria-haspopup="dialog" aria-label="Ouvrir Pont au couchant">
+            <img src="assets/images/kaholey-04.webp" alt="Pont au-dessus de l'eau au couchant" width="1400" height="823" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Pont au couchant</strong>
+                <small>Rivière — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="rivieres" data-title="Arches et reflets" data-context="Rivière — Pékin" data-image="assets/images/kaholey-05.webp" aria-haspopup="dialog" aria-label="Ouvrir Arches et reflets">
+            <img src="assets/images/kaholey-05.webp" alt="Arches d'un pont avec reflets dans l'eau" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Arches et reflets</strong>
+                <small>Rivière — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="villes" data-title="Verticalité" data-context="Ville — Pékin" data-image="assets/images/kaholey-06.webp" aria-haspopup="dialog" aria-label="Ouvrir Verticalité">
+            <img src="assets/images/kaholey-06.webp" alt="Tour urbaine vue en contre-plongée" width="1400" height="788" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Verticalité</strong>
+                <small>Ville — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="rivieres" data-title="Eau et architecture" data-context="Rivière — Pékin" data-image="assets/images/kaholey-07.webp" aria-haspopup="dialog" aria-label="Ouvrir Eau et architecture">
+            <img src="assets/images/kaholey-07.webp" alt="Architecture au bord de l'eau" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Eau et architecture</strong>
+                <small>Rivière — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="lumieres" data-title="Brumes du soir" data-context="Lumière — Pékin" data-image="assets/images/kaholey-08.webp" aria-haspopup="dialog" aria-label="Ouvrir Brumes du soir">
+            <img src="assets/images/kaholey-08.webp" alt="Pont dans les brumes du soir" width="1400" height="816" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Brumes du soir</strong>
+                <small>Lumière — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="rivieres" data-title="Passerelle" data-context="Rivière — Pékin" data-image="assets/images/kaholey-09.webp" aria-haspopup="dialog" aria-label="Ouvrir Passerelle">
+            <img src="assets/images/kaholey-09.webp" alt="Passerelle au-dessus d'une rivière" width="1400" height="788" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Passerelle</strong>
+                <small>Rivière — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="rivieres" data-title="Panorama liquide" data-context="Rivière — Pékin" data-image="assets/images/kaholey-10.webp" aria-haspopup="dialog" aria-label="Ouvrir Panorama liquide">
+            <img src="assets/images/kaholey-10.webp" alt="Panorama urbain au bord de l'eau" width="1400" height="788" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Panorama liquide</strong>
+                <small>Rivière — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="villes" data-title="Rue et perspectives" data-context="Ville — Pékin" data-image="assets/images/kaholey-11.webp" aria-haspopup="dialog" aria-label="Ouvrir Rue et perspectives">
+            <img src="assets/images/kaholey-11.webp" alt="Rue de Pékin avec perspectives verticales" width="933" height="1400" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Rue et perspectives</strong>
+                <small>Ville — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Côte de Cotonou" data-context="Bénin — Littoral" data-image="assets/images/benin-01.webp" aria-haspopup="dialog" aria-label="Ouvrir Côte de Cotonou">
+            <img src="assets/images/benin-01.webp" alt="Côte de Cotonou vue du ciel" width="1600" height="900" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Côte de Cotonou</strong>
+                <small>Bénin — Littoral</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Bouches du Roy" data-context="Bénin — Océan" data-image="assets/images/benin-02.webp" aria-haspopup="dialog" aria-label="Ouvrir Bouches du Roy">
+            <img src="assets/images/benin-02.webp" alt="Rencontre entre l'océan et la terre au Bénin" width="1400" height="1048" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Bouches du Roy</strong>
+                <small>Bénin — Océan</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Crépuscule béninois" data-context="Bénin — Lumière" data-image="assets/images/benin-03.webp" aria-haspopup="dialog" aria-label="Ouvrir Crépuscule béninois">
+            <img src="assets/images/benin-03.webp" alt="Crépuscule doré au-dessus du Bénin" width="1400" height="1048" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Crépuscule béninois</strong>
+                <small>Bénin — Lumière</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Lagune apaisée" data-context="Bénin — Lac" data-image="assets/images/benin-04.webp" aria-haspopup="dialog" aria-label="Ouvrir Lagune apaisée">
+            <img src="assets/images/benin-04.webp" alt="Lagune calme au Bénin" width="1400" height="1050" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Lagune apaisée</strong>
+                <small>Bénin — Lac</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Panorama du Sud" data-context="Bénin — Vue aérienne" data-image="assets/images/benin-05.webp" aria-haspopup="dialog" aria-label="Ouvrir Panorama du Sud">
+            <img src="assets/images/benin-05.webp" alt="Panorama du sud du Bénin vu du ciel" width="1800" height="660" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Panorama du Sud</strong>
+                <small>Bénin — Vue aérienne</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Ville et lagune" data-context="Bénin — Cotonou" data-image="assets/images/benin-06.webp" aria-haspopup="dialog" aria-label="Ouvrir Ville et lagune">
+            <img src="assets/images/benin-06.webp" alt="Ville et lagune à Cotonou" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Ville et lagune</strong>
+                <small>Bénin — Cotonou</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Amazones de Dahomey" data-context="Bénin — Monument" data-image="assets/images/benin-07.webp" aria-haspopup="dialog" aria-label="Ouvrir Amazones de Dahomey">
+            <img src="assets/images/benin-07.webp" alt="Statue des Amazones de Dahomey sous un ciel bleu" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Amazones de Dahomey</strong>
+                <small>Bénin — Monument</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="benin" data-title="Savane du Nord" data-context="Bénin — Paysage" data-image="assets/images/benin-08.webp" aria-haspopup="dialog" aria-label="Ouvrir Savane du Nord">
+            <img src="assets/images/benin-08.webp" alt="Savane du nord du Bénin sous une lumière chaude" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Savane du Nord</strong>
+                <small>Bénin — Paysage</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="portrait" data-title="Portrait doré" data-context="Portrait — Pékin" data-image="assets/images/portrait-01.webp" aria-haspopup="dialog" aria-label="Ouvrir Portrait doré">
+            <img src="assets/images/portrait-01.webp" alt="Portrait féminin dans une lumière dorée" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Portrait doré</strong>
+                <small>Portrait — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="portrait" data-title="Regard posé" data-context="Portrait — Pékin" data-image="assets/images/portrait-02.webp" aria-haspopup="dialog" aria-label="Ouvrir Regard posé">
+            <img src="assets/images/portrait-02.webp" alt="Portrait au regard posé" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Regard posé</strong>
+                <small>Portrait — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="portrait" data-title="Lumière douce" data-context="Portrait — Pékin" data-image="assets/images/portrait-03.webp" aria-haspopup="dialog" aria-label="Ouvrir Lumière douce">
+            <img src="assets/images/portrait-03.webp" alt="Portrait féminin sous une lumière douce" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Lumière douce</strong>
+                <small>Portrait — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="portrait" data-title="Éclat d'été" data-context="Portrait — Pékin" data-image="assets/images/portrait-04.webp" aria-haspopup="dialog" aria-label="Ouvrir Éclat d'été">
+            <img src="assets/images/portrait-04.webp" alt="Portrait féminin coloré et lumineux" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Éclat d'été</strong>
+                <small>Portrait — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="portrait" data-title="Portrait intime" data-context="Portrait — Chine" data-image="assets/images/portrait-05.webp" aria-haspopup="dialog" aria-label="Ouvrir Portrait intime">
+            <img src="assets/images/portrait-05.webp" alt="Portrait intime en lumière naturelle" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Portrait intime</strong>
+                <small>Portrait — Chine</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="portrait" data-title="Douceur partagée" data-context="Portrait — Pékin" data-image="assets/images/portrait-06.webp" aria-haspopup="dialog" aria-label="Ouvrir Douceur partagée">
+            <img src="assets/images/portrait-06.webp" alt="Moment doux entre une mère et son enfant" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Douceur partagée</strong>
+                <small>Portrait — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="fleur" data-title="Tulipe au printemps" data-context="Fleur — Pékin" data-image="assets/images/fleur-01.webp" aria-haspopup="dialog" aria-label="Ouvrir Tulipe au printemps">
+            <img src="assets/images/fleur-01.webp" alt="Tulipes printanières dans une lumière douce" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Tulipe au printemps</strong>
+                <small>Fleur — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="fleur" data-title="Éclat de tulipe" data-context="Fleur — Pékin" data-image="assets/images/fleur-02.webp" aria-haspopup="dialog" aria-label="Ouvrir Éclat de tulipe">
+            <img src="assets/images/fleur-02.webp" alt="Tulipe éclatante au printemps" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Éclat de tulipe</strong>
+                <small>Fleur — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="fleur" data-title="Blossom printanier" data-context="Fleur — Pékin" data-image="assets/images/fleur-03.webp" aria-haspopup="dialog" aria-label="Ouvrir Blossom printanier">
+            <img src="assets/images/fleur-03.webp" alt="Fleurs printanières en cadrage vertical" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Blossom printanier</strong>
+                <small>Fleur — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="fleur" data-title="Branche en fleurs" data-context="Fleur — Pékin" data-image="assets/images/fleur-04.webp" aria-haspopup="dialog" aria-label="Ouvrir Branche en fleurs">
+            <img src="assets/images/fleur-04.webp" alt="Branche chargée de fleurs printanières" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Branche en fleurs</strong>
+                <small>Fleur — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="fleur" data-title="Rose printanière" data-context="Fleur — Pékin" data-image="assets/images/fleur-05.webp" aria-haspopup="dialog" aria-label="Ouvrir Rose printanière">
+            <img src="assets/images/fleur-05.webp" alt="Rose printanière épanouie" width="1400" height="933" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Rose printanière</strong>
+                <small>Fleur — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="fleur" data-title="Tulipe verticale" data-context="Fleur — Pékin" data-image="assets/images/fleur-06.webp" aria-haspopup="dialog" aria-label="Ouvrir Tulipe verticale">
+            <img src="assets/images/fleur-06.webp" alt="Tulipe printanière en cadrage vertical" width="800" height="1200" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Tulipe verticale</strong>
+                <small>Fleur — Pékin</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="drone" data-title="Lignes aériennes" data-context="Drone — Chine" data-image="assets/images/drone-01.webp" aria-haspopup="dialog" aria-label="Ouvrir Lignes aériennes">
+            <img src="assets/images/drone-01.webp" alt="Vue aérienne d'une ville chinoise" width="1800" height="900" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Lignes aériennes</strong>
+                <small>Drone — Chine</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="drone" data-title="Panorama suspendu" data-context="Drone — Chine" data-image="assets/images/drone-02.webp" aria-haspopup="dialog" aria-label="Ouvrir Panorama suspendu">
+            <img src="assets/images/drone-02.webp" alt="Panorama aérien au-dessus d'une ville" width="1800" height="808" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Panorama suspendu</strong>
+                <small>Drone — Chine</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="drone" data-title="Cité vue d'en haut" data-context="Drone — Chine" data-image="assets/images/drone-03.webp" aria-haspopup="dialog" aria-label="Ouvrir Cité vue d'en haut">
+            <img src="assets/images/drone-03.webp" alt="Cité chinoise vue depuis un drone" width="1400" height="1045" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Cité vue d'en haut</strong>
+                <small>Drone — Chine</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="drone" data-title="Méandres urbains" data-context="Drone — Chine" data-image="assets/images/drone-04.webp" aria-haspopup="dialog" aria-label="Ouvrir Méandres urbains">
+            <img src="assets/images/drone-04.webp" alt="Rivière et quartiers vus du ciel" width="1400" height="787" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Méandres urbains</strong>
+                <small>Drone — Chine</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="drone" data-title="Trame nocturne" data-context="Drone — Chine" data-image="assets/images/drone-05.webp" aria-haspopup="dialog" aria-label="Ouvrir Trame nocturne">
+            <img src="assets/images/drone-05.webp" alt="Trame urbaine nocturne vue du ciel" width="1400" height="852" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Trame nocturne</strong>
+                <small>Drone — Chine</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+
+          <button class="work-card" type="button" data-category="drone" data-title="Rivière dorée" data-context="Drone — Chine" data-image="assets/images/drone-06.webp" aria-haspopup="dialog" aria-label="Ouvrir Rivière dorée">
+            <img src="assets/images/drone-06.webp" alt="Rivière dorée au coucher du soleil vue du ciel" width="1400" height="786" loading="lazy" decoding="async">
+            <span class="work-overlay">
+              <span class="work-copy">
+                <strong>Rivière dorée</strong>
+                <small>Drone — Chine</small>
+              </span>
+              <span class="work-zoom" aria-hidden="true">+</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <img src="assets/images/kaholey-cta.webp" alt="" width="1800" height="1012" loading="lazy" decoding="async">
+      <div class="cta-scrim" aria-hidden="true"></div>
+      <div class="container cta-content" data-reveal>
+        <p class="eyebrow eyebrow-light">Votre projet</p>
+        <h2 id="cta-title">Envie d'une série sur mesure ?</h2>
+        <a class="btn btn-light" href="contact.html">
+          Discuter de votre projet
+          <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-arrow-right"></use></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Kaholey, retour à l'accueil">
+          <span class="brand-mark" aria-hidden="true">K</span>
+          <span class="brand-text">
+            <strong>Kaholey</strong>
+            <small>Photographe paysage</small>
+          </span>
+        </a>
+        <p>Basé à Pékin, disponible pour des expéditions et des commandes en Chine, en Asie et au Bénin.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navigation du pied de page">
+        <p class="footer-heading">Navigation</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html">Prestations</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <ul class="footer-contact-list">
+          <li><a href="mailto:kaholey@126.com">kaholey@126.com</a></li>
+          <li><a href="tel:+8613001210130">+86 130 0121 0130</a></li>
+          <li>Chaoyang District, Beijing</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Kaholey. Tous droits réservés.</span>
+      <span>Pékin — Chine</span>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+    <div class="lightbox-stage">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Fermer">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-close"></use></svg>
+      </button>
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Image précédente">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-chevron-left"></use></svg>
+      </button>
+      <figure class="lightbox-figure">
+        <img id="lightbox-image" src="" alt="">
+        <figcaption>
+          <strong id="lightbox-title"></strong>
+          <span id="lightbox-context"></span>
+        </figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Image suivante">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-chevron-right"></use></svg>
+      </button>
+    </div>
+  </dialog>
+</body>
+</html>

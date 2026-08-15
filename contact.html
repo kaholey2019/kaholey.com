@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121211">
+  <title>Contact — Kaholey | Paysages, portraits, fleurs &amp; drone</title>
+  <meta name="description" content="Contactez Kaholey pour une expédition paysage, une commande sur mesure, un tirage d'art ou un projet éditorial.">
+  <meta property="og:title" content="Contact — Kaholey">
+  <meta property="og:description" content="Un projet, une expédition, une question : écrivez-moi.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kaholey.netlify.app/contact.html">
+  <meta property="og:image" content="assets/images/kaholey-hero.webp">
+  <link rel="canonical" href="https://kaholey.netlify.app/contact.html">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Kaholey, retour à l'accueil">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span class="brand-text">
+          <strong>Kaholey</strong>
+          <small>Photographe paysage</small>
+        </span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Prestations</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html" class="is-active" aria-current="page">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-light btn-small header-cta" href="contact.html">Réserver</a>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+          <svg class="icon icon-menu" aria-hidden="true"><use href="assets/icons.svg#icon-menu"></use></svg>
+          <svg class="icon icon-close" aria-hidden="true"><use href="assets/icons.svg#icon-close"></use></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="page-hero-media">
+        <img src="assets/images/kaholey-01.webp" alt="Rivière de Pékin au coucher du soleil" width="1400" height="933" fetchpriority="high">
+      </div>
+      <div class="page-hero-scrim" aria-hidden="true"></div>
+      <div class="page-hero-content">
+        <p class="eyebrow eyebrow-light">Contact</p>
+        <h1 id="page-title">Racontez-moi votre projet</h1>
+        <p>Une expédition, un tirage, une commande : je vous réponds sous 24 heures.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info" data-reveal>
+          <p class="eyebrow">Coordonnées</p>
+          <h2 id="contact-title">Disponible pour des projets en Chine, en Asie et au Bénin</h2>
+          <p>Basé à Pékin, je me déplace pour des expéditions, des commandes et des collaborations éditoriales.</p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons.svg#icon-mail"></use></svg></span>
+              <span><strong>Email</strong>kaholey@126.com</span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons.svg#icon-phone"></use></svg></span>
+              <span><strong>Téléphone</strong>+86 130 0121 0130</span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons.svg#icon-map-pin"></use></svg></span>
+              <span><strong>Studio</strong>Chaoyang District, Beijing, Chine</span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true"><svg class="icon"><use href="assets/icons.svg#icon-calendar"></use></svg></span>
+              <span><strong>Disponibilités</strong>Du lundi au samedi, 9h à 18h</span>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="https://instagram.com/kaholey.photo" target="_blank" rel="noopener" aria-label="Instagram de Kaholey">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-instagram"></use></svg>
+            </a>
+            <a href="mailto:kaholey@126.com" aria-label="Écrire à Kaholey">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-mail"></use></svg>
+            </a>
+            <a href="tel:+8613001210130" aria-label="Appeler Kaholey">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-phone"></use></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate data-reveal>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Nom complet</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <p class="field-error" id="name-error"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="field-error" id="email-error"></p>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="type">Type de projet</label>
+              <select id="type" name="type">
+                <option value="Expédition paysage">Expédition paysage</option>
+                <option value="Commande sur mesure">Commande sur mesure</option>
+                <option value="Tirages d'art">Tirages d'art</option>
+                <option value="Accompagnement éditorial">Accompagnement éditorial</option>
+                <option value="Autre projet">Autre projet</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="date">Date souhaitée <span class="optional">(optionnel)</span></label>
+              <input id="date" name="date" type="date">
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Votre projet</label>
+            <textarea id="message" name="message" required></textarea>
+            <p class="field-error" id="message-error"></p>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">
+            Envoyer la demande
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-send"></use></svg>
+          </button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <img src="assets/images/kaholey-08.webp" alt="" width="1400" height="816" loading="lazy" decoding="async">
+      <div class="cta-scrim" aria-hidden="true"></div>
+      <div class="container cta-content" data-reveal>
+        <p class="eyebrow eyebrow-light">Portfolio</p>
+        <h2 id="cta-title">Découvrez la dernière sélection.</h2>
+        <a class="btn btn-light" href="portfolio.html">
+          Voir le portfolio
+          <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#icon-arrow-right"></use></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Kaholey, retour à l'accueil">
+          <span class="brand-mark" aria-hidden="true">K</span>
+          <span class="brand-text">
+            <strong>Kaholey</strong>
+            <small>Photographe paysage</small>
+          </span>
+        </a>
+        <p>Basé à Pékin, disponible pour des expéditions et des commandes en Chine, en Asie et au Bénin.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navigation du pied de page">
+        <p class="footer-heading">Navigation</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html">Prestations</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <ul class="footer-contact-list">
+          <li><a href="mailto:kaholey@126.com">kaholey@126.com</a></li>
+          <li><a href="tel:+8613001210130">+86 130 0121 0130</a></li>
+          <li>Chaoyang District, Beijing</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Kaholey. Tous droits réservés.</span>
+      <span>Pékin — Chine</span>
+    </div>
+  </footer>
+</body>
+</html>
